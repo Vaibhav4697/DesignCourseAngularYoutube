@@ -1,0 +1,970 @@
+1. To check node js installed or not?
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular>node -v
+	v13.12.0
+
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular>npm -v
+	6.14.4
+	
+2. To install Angular CLI
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular>npm i -g @angular/cli
+	npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+	C:\Users\Grover\AppData\Roaming\npm\ng -> C:\Users\Grover\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+
+	> @angular/cli@9.1.0 postinstall C:\Users\Grover\AppData\Roaming\npm\node_modules\@angular\cli
+	> node ./bin/postinstall/script.js
+
+	? Would you like to share anonymous usage data with the Angular Team at Google under
+	Google’s Privacy Policy at https://policies.google.com/privacy? For more details and
+	how to change this setting, see http://angular.io/analytics. No
+	+ @angular/cli@9.1.0
+	added 254 packages from 195 contributors in 163.978s
+	
+3. Creating Angular Project
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular>mkdir Projects
+
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular>cd Projects
+
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects>ng new my-app
+	? Would you like to add Angular routing? Yes
+	? Which stylesheet format would you like to use? CSS
+	CREATE my-app/angular.json (3566 bytes)
+	CREATE my-app/package.json (1282 bytes)
+	CREATE my-app/README.md (1022 bytes)
+	CREATE my-app/tsconfig.json (489 bytes)
+	CREATE my-app/tslint.json (3125 bytes)
+	CREATE my-app/.editorconfig (274 bytes)
+	CREATE my-app/.gitignore (631 bytes)
+	CREATE my-app/browserslist (429 bytes)
+	CREATE my-app/karma.conf.js (1018 bytes)
+	CREATE my-app/tsconfig.app.json (210 bytes)
+	CREATE my-app/tsconfig.spec.json (270 bytes)
+	CREATE my-app/src/favicon.ico (948 bytes)
+	CREATE my-app/src/index.html (291 bytes)
+	CREATE my-app/src/main.ts (372 bytes)
+	CREATE my-app/src/polyfills.ts (2835 bytes)
+	CREATE my-app/src/styles.css (80 bytes)
+	CREATE my-app/src/test.ts (753 bytes)
+	CREATE my-app/src/assets/.gitkeep (0 bytes)
+	CREATE my-app/src/environments/environment.prod.ts (51 bytes)
+	CREATE my-app/src/environments/environment.ts (662 bytes)
+	CREATE my-app/src/app/app-routing.module.ts (246 bytes)
+	CREATE my-app/src/app/app.module.ts (393 bytes)
+	CREATE my-app/src/app/app.component.html (25755 bytes)
+	CREATE my-app/src/app/app.component.spec.ts (1059 bytes)
+	CREATE my-app/src/app/app.component.ts (210 bytes)
+	CREATE my-app/src/app/app.component.css (0 bytes)
+	CREATE my-app/e2e/protractor.conf.js (808 bytes)
+	CREATE my-app/e2e/tsconfig.json (214 bytes)
+	CREATE my-app/e2e/src/app.e2e-spec.ts (639 bytes)
+	CREATE my-app/e2e/src/app.po.ts (301 bytes)
+	√ Packages installed successfully.
+	warning: LF will be replaced by CRLF in .editorconfig.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in .gitignore.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in README.md.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in angular.json.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in browserslist.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in e2e/tsconfig.json.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in karma.conf.js.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in package-lock.json.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in package.json.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/app/app.component.html.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/app/app.component.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/app/app.module.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/environments/environment.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/index.html.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/main.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/polyfills.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/styles.css.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in src/test.ts.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in tsconfig.app.json.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in tsconfig.json.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in tsconfig.spec.json.
+	The file will have its original line endings in your working directory
+	warning: LF will be replaced by CRLF in tslint.json.
+	The file will have its original line endings in your working directory
+		Successfully initialized git.
+
+4. To open VS Code
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects>cd my-app
+
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app>code .
+	
+5. To open the browser and open the index file on localhost:4200
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app>ng serve -o
+	Compiling @angular/animations : es2015 as esm2015
+	Compiling @angular/compiler/testing : es2015 as esm2015
+	Compiling @angular/core : es2015 as esm2015
+	Compiling @angular/common : es2015 as esm2015
+	Compiling @angular/core/testing : es2015 as esm2015
+	Compiling @angular/animations/browser : es2015 as esm2015
+	Compiling @angular/platform-browser : es2015 as esm2015
+	Compiling @angular/common/testing : es2015 as esm2015
+	Compiling @angular/common/http : es2015 as esm2015
+	Compiling @angular/platform-browser-dynamic : es2015 as esm2015
+	Compiling @angular/platform-browser/testing : es2015 as esm2015
+	Compiling @angular/router : es2015 as esm2015
+	Compiling @angular/animations/browser/testing : es2015 as esm2015
+	Compiling @angular/common/http/testing : es2015 as esm2015
+	Compiling @angular/forms : es2015 as esm2015
+	Compiling @angular/platform-browser/animations : es2015 as esm2015
+	Compiling @angular/platform-browser-dynamic/testing : es2015 as esm2015
+	Compiling @angular/router/testing : es2015 as esm2015
+
+	chunk {main} main.js, main.js.map (main) 60.7 kB [initial] [rendered]
+	chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+	chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+	chunk {styles} styles.js, styles.js.map (styles) 9.79 kB [initial] [rendered]
+	chunk {vendor} vendor.js, vendor.js.map (vendor) 2.99 MB [initial] [rendered]
+	Date: 2020-04-07T08:48:25.046Z - Hash: 113efb583ea4ea7d555c - Time: 34061ms
+	** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+	: Compiled successfully.
+	
+6. Add below code to file app.component.html --> This file is global file and this code will appear on the page after loading.
+	<header>
+	  <div class="container">
+		<a href="#" class="logo">CoolApp</a>
+		<nav>
+		  <ul>
+			<li><a href="#" routerLink="/">Home</a></li>
+			<li><a href="#" routerLink="/list">Breweries</a></li>
+		  </ul>
+		</nav>
+	  </div>
+	</header>
+
+	<div class="container">
+	  <router-outlet></router-outlet>
+	</div>
+	
+	After this refresh the web page and observe.
+	
+7. Add the belo code in styles.scss in src folder --> This is global styling sheet.
+	/* You can add global styles to this file, and also import other style files */
+
+	@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+	$primary: rgb(111, 0, 255);
+
+	body{
+		margin: 0;
+		font-family: 'Nunito', 'sans-serif';
+		font-size: 18px;
+	}
+
+	.container{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	header{
+		background: $primary;
+		padding: 1em 0;
+
+		a{
+			color: white;
+			text-decoration: none;
+		}
+
+		a.logo{
+			font-weight: bold;
+		}
+
+		nav{
+			float: right;
+
+			ul{
+				list-style-type: none;
+				margin: 0;
+				display: flex;
+
+				li a{
+					padding: 1em;
+
+					&:hover{
+						background: darken($primary, 10%);
+					}
+				}
+			}
+		}
+	}
+	
+	After this refresh the web page and observe.
+	
+8. Now create two components:
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app>ng g c home
+	CREATE src/app/home/home.component.html (19 bytes)
+	CREATE src/app/home/home.component.spec.ts (614 bytes)
+	CREATE src/app/home/home.component.ts (268 bytes)
+	CREATE src/app/home/home.component.scss (0 bytes)
+	UPDATE src/app/app.module.ts (467 bytes)
+
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app>ng g c list
+	CREATE src/app/list/list.component.html (19 bytes)
+	CREATE src/app/list/list.component.spec.ts (614 bytes)
+	CREATE src/app/list/list.component.ts (268 bytes)
+	CREATE src/app/list/list.component.scss (0 bytes)
+	UPDATE src/app/app.module.ts (541 bytes)
+	
+9. Now the code in file app-routing.module.ts in app folder --> This will add the two components and will help the router to route to the particular container.
+	import { NgModule } from '@angular/core';
+	import { Routes, RouterModule } from '@angular/router';
+
+	import { HomeComponent } from './home/home.component';
+	import { ListComponent } from './list/list.component';
+
+	const routes: Routes = [
+	  { path: '', component: HomeComponent },
+	  { path: 'list', component: ListComponent }
+	];
+
+	@NgModule({
+	  imports: [RouterModule.forRoot(routes)],
+	  exports: [RouterModule]
+	})
+	export class AppRoutingModule { }
+
+10. Add the below code in the home.component.html --> This will be shown when home will be slected or on load.
+	<h1>Welcome!</h1>
+
+	<div class="play-container">
+		<p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
+	</div>
+	
+11. Add the below code in the home.component.scss --> This is the style sheet for home component only.
+	span{
+		font-weight: bold;
+		background: lightgray;
+		padding: .3em .8em;
+		cursor: pointer;
+		user-select: none;
+	}
+
+	.play-container{
+		padding: 3em;
+		border: 1px solid lightgray;
+		margin-bottom: 1em;
+
+		input{
+			padding: 1em;
+			margin-bottom: 2em;
+		}
+	}
+	
+12. Add the below code in the home.component.ts --> This typescript file contains the logic.
+	import { Component, OnInit } from '@angular/core';
+
+	@Component({
+	  selector: 'app-home',
+	  templateUrl: './home.component.html',
+	  styleUrls: ['./home.component.scss']
+	})
+	export class HomeComponent implements OnInit {
+
+	  clickCounter: number = 0;
+
+	  constructor() { }
+
+	  ngOnInit(): void {
+	  }
+
+	  countClick(){
+		this.clickCounter += 1;
+	  }
+
+	}
+
+	After this refresh the web page and observe.
+	
+13. Update the code in home.component.html
+	<h1>Welcome!</h1>
+
+	<div class="play-container">
+		<p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
+	</div>
+
+	<div class="play-container">
+		<p>
+			<input type="text" [(ngModel)]="name">
+			<br>
+			<strong>You said: </strong>{{ name }}
+		</p>
+	</div>
+	
+14. Update app.module.ts and import FormsModule -->
+	import { BrowserModule } from '@angular/platform-browser';
+	import { NgModule } from '@angular/core';
+	import { FormsModule } from '@angular/forms';
+
+	import { AppRoutingModule } from './app-routing.module';
+	import { AppComponent } from './app.component';
+	import { HomeComponent } from './home/home.component';
+	import { ListComponent } from './list/list.component';
+
+	@NgModule({
+	  declarations: [
+		AppComponent,
+		HomeComponent,
+		ListComponent
+	  ],
+	  imports: [
+		BrowserModule,
+		AppRoutingModule,
+		FormsModule
+	  ],
+	  providers: [],
+	  bootstrap: [AppComponent]
+	})
+	export class AppModule { }
+
+15. Update home.component.ts -->
+	import { Component, OnInit } from '@angular/core';
+
+	@Component({
+	  selector: 'app-home',
+	  templateUrl: './home.component.html',
+	  styleUrls: ['./home.component.scss']
+	})
+	export class HomeComponent implements OnInit {
+
+	  clickCounter: number = 0;
+	  name: string = "";
+
+	  constructor() { }
+
+	  ngOnInit(): void {
+	  }
+
+	  countClick(){
+		this.clickCounter += 1;
+	  }
+
+	}
+
+	After this refresh the web page and observe.
+
+16. Update the home.component.html --> NG-TEMPLATE
+	<h1>Welcome!</h1>
+
+	<div class="play-container">
+		<p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
+	</div>
+
+	<div class="play-container">
+		<p>
+			<input type="text" [(ngModel)]="name">
+			<br>
+			<strong>You said: </strong>{{ name }}
+		</p>
+	</div>
+
+	<div class="play-container">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+	
+	After this refresh the web page and observe.
+	
+17. Update the home.component.html -->
+	<h1>Welcome!</h1>
+
+	<div class="play-container">
+		<p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
+	</div>
+
+	<div class="play-container">
+		<p>
+			<input type="text" [(ngModel)]="name">
+			<br>
+			<strong>You said: </strong>{{ name }}
+		</p>
+	</div>
+
+	<div class="play-container" [style.background-color]="clickCounter > 4 ? 'yellow' : 'lightgray'">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+	
+	After this refresh the web page and observe.
+	
+18. Update the home.component.html --> NG-STYLE
+	<h1>Welcome!</h1>
+
+	<div class="play-container">
+		<p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
+	</div>
+
+	<div class="play-container">
+		<p>
+			<input type="text" [(ngModel)]="name">
+			<br>
+			<strong>You said: </strong>{{ name }}
+		</p>
+	</div>
+
+	<div class="play-container" [style.background-color]="clickCounter > 4 ? 'yellow' : 'lightgray'">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+
+	<div class="play-container" [ngStyle]="{
+		'background-color': clickCounter > 4 ? 'red' : 'lightgray',
+		'border': clickCounter > 4 ? '4px solid black' : 'none'
+	}">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+
+	After this refresh the web page and observe.
+
+19. Update the home.component.html --> CLASS BINDING
+	<h1>Welcome!</h1>
+
+	<div class="play-container">
+		<p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
+	</div>
+
+	<div class="play-container">
+		<p>
+			<input type="text" [(ngModel)]="name">
+			<br>
+			<strong>You said: </strong>{{ name }}
+		</p>
+	</div>
+
+	<div class="play-container" [style.background-color]="clickCounter > 4 ? 'yellow' : 'lightgray'">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+
+	<div class="play-container" [ngStyle]="{
+		'background-color': clickCounter > 4 ? 'red' : 'lightgray',
+		'border': clickCounter > 4 ? '4px solid black' : 'none'
+	}">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+
+	<div class="play-container" [class.active]="clickCounter > 4">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+	
+20. Update the home.component.scss --> CLASS BINDING
+	span{
+		font-weight: bold;
+		background: lightgray;
+		padding: .3em .8em;
+		cursor: pointer;
+		user-select: none;
+	}
+
+	.play-container{
+		padding: 3em;
+		border: 1px solid lightgray;
+		margin-bottom: 1em;
+
+		input{
+			padding: 1em;
+			margin-bottom: 2em;
+		}
+	}
+
+	.active{
+		background-color: green;
+		border: 4px solid orange;
+	}
+	
+	After this refresh the web page and observe.
+	
+21. Update the home.component.html -->
+	<h1>Welcome!</h1>
+
+	<div class="play-container">
+		<p>You've clicked <span (click)="countClick()">this</span> {{ clickCounter }} times.</p>
+	</div>
+
+	<div class="play-container">
+		<p>
+			<input type="text" [(ngModel)]="name">
+			<br>
+			<strong>You said: </strong>{{ name }}
+		</p>
+	</div>
+
+	<div class="play-container" [style.background-color]="clickCounter > 4 ? 'yellow' : 'lightgray'">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+
+	<div class="play-container" [ngStyle]="{
+		'background-color': clickCounter > 4 ? 'red' : 'lightgray',
+		'border': clickCounter > 4 ? '4px solid black' : 'none'
+	}">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+
+	<div class="play-container" [class.active]="clickCounter > 4">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+
+	<div class="play-container" [ngClass]="setClasses()">
+		<ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
+			<p>The click counter <strong>IS GREATER</strong> than 4.</p>
+		</ng-template>
+		
+		<ng-template #none>
+			<p>The click counter <strong>is not greater</strong> than 4.</p>
+		</ng-template>
+	</div>
+	
+22. Update the home.component.scss -->
+	span{
+		font-weight: bold;
+		background: lightgray;
+		padding: .3em .8em;
+		cursor: pointer;
+		user-select: none;
+	}
+
+	.play-container{
+		padding: 3em;
+		border: 1px solid lightgray;
+		margin-bottom: 1em;
+
+		input{
+			padding: 1em;
+			margin-bottom: 2em;
+		}
+	}
+
+	.active{
+		background-color: green;
+		border: 4px solid orange;
+	}
+
+	.notactive{
+		background-color: orange;
+		border: 4px solid green;
+	}
+	
+23. Update the home.component.ts --> CLASS BINDING THROUGH TS
+	import { Component, OnInit } from '@angular/core';
+
+	@Component({
+	  selector: 'app-home',
+	  templateUrl: './home.component.html',
+	  styleUrls: ['./home.component.scss']
+	})
+	export class HomeComponent implements OnInit {
+
+	  clickCounter: number = 0;
+	  name: string = "";
+
+	  constructor() { }
+
+	  ngOnInit(): void {
+	  }
+
+	  countClick(){
+		this.clickCounter += 1;
+	  }
+
+	  setClasses(){
+		let myClasses = {
+		  active: this.clickCounter > 4,
+		  notactive: this.clickCounter <= 4
+		}
+		return myClasses;
+	  }
+
+	}
+	
+	After this refresh the web page and observe.
+
+24. Create the http service ts -->
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app>ng g s http
+	CREATE src/app/http.service.spec.ts (347 bytes)
+	CREATE src/app/http.service.ts (133 bytes)
+	
+25. Update the file http.service.ts -->
+	import { Injectable } from '@angular/core';
+
+	@Injectable({
+	  providedIn: 'root'
+	})
+	export class HttpService {
+
+	  constructor() { }
+
+	  myMethod(){
+		return console.log('Hey, What is up!');
+	  }
+	}
+	
+26. Update the list.component.ts --> How to include the service
+	import { Component, OnInit } from '@angular/core';
+	import { HttpService } from '../http.service';
+
+	@Component({
+	  selector: 'app-list',
+	  templateUrl: './list.component.html',
+	  styleUrls: ['./list.component.scss']
+	})
+	export class ListComponent implements OnInit {
+
+	  constructor(private _http: HttpService) { }
+
+	  ngOnInit(): void {
+		this._http.myMethod();
+	  }
+
+	}
+
+	After this refresh and check the logs.
+	
+27. Update the http.service.ts --> Hitting the real api with HttpClient
+	import { Injectable } from '@angular/core';
+	import { HttpClient } from '@angular/common/http';
+
+	@Injectable({
+	  providedIn: 'root'
+	})
+	export class HttpService {
+
+	  constructor(private http: HttpClient) { }
+
+	  myMethod(){
+		return console.log('Hey, What is up!');
+	  }
+
+	  getBreweries(){
+		return this.http.get('https://api.openbrewerydb.org/breweries');
+	  }
+	}
+
+28. Update the list.component.ts -->
+	import { Component, OnInit } from '@angular/core';
+	import { HttpService } from '../http.service';
+
+	@Component({
+	  selector: 'app-list',
+	  templateUrl: './list.component.html',
+	  styleUrls: ['./list.component.scss']
+	})
+	export class ListComponent implements OnInit {
+
+	  breweries: Object;
+
+	  constructor(private _http: HttpService) { }
+
+	  ngOnInit(): void {
+		this._http.myMethod();
+		this._http.getBreweries().subscribe(data =>{
+		  this.breweries = data;
+		  console.log(this.breweries);
+		});
+	  }
+
+	}
+
+29. Update the file app.module.ts --> Import HttpClientModule
+	import { BrowserModule } from '@angular/platform-browser';
+	import { NgModule } from '@angular/core';
+	import { FormsModule } from '@angular/forms';
+	import { HttpClientModule } from '@angular/common/http';
+
+	import { AppRoutingModule } from './app-routing.module';
+	import { AppComponent } from './app.component';
+	import { HomeComponent } from './home/home.component';
+	import { ListComponent } from './list/list.component';
+
+	@NgModule({
+	  declarations: [
+		AppComponent,
+		HomeComponent,
+		ListComponent
+	  ],
+	  imports: [
+		BrowserModule,
+		AppRoutingModule,
+		FormsModule,
+		HttpClientModule
+	  ],
+	  providers: [],
+	  bootstrap: [AppComponent]
+	})
+	export class AppModule { }
+
+	After this save, refresh and check the logs.
+	
+30. Add the below code to the file list.component.html -->
+	<h1>Breweries</h1>
+
+	<ul *ngIf="breweries">
+		<li *ngFor="let brewery of breweries">
+			<p class="id">{{ brewery.id }}</p>
+			<p class="name">{{ brewery.name }}</p>
+			<p class="brewery_type">{{ brewery.brewery_type }}</p>
+			<p class="street">{{ brewery.street }}</p>
+			<p class="city">{{ brewery.city }}</p>
+			<p class="state">{{ brewery.state }}</p>
+			<p class="postal_code">{{ brewery.postal_code }}</p>
+			<p class="country">{{ brewery.country }}</p>
+			<p class="longitude">{{ brewery.longitude }}</p>
+			<p class="latitude">{{ brewery.latitude }}</p>
+			<p class="phone">{{ brewery.phone }}</p>
+			<a href="{{ brewery.website_url }}" class="website_url">Website</a>
+		</li>
+	</ul>
+	
+31. Add the below code to the file list.component.scss -->
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+
+		li{
+			background: rgb(238, 238, 238);
+			padding: 1em;
+			margin-right: 10px;
+			width: 20%;
+			height: 400px;
+			margin-bottom: 1em;
+			display: flex;
+			flex-direction: column;
+
+			p{
+				margin: 0;
+			}
+
+			p.name{
+				font-weight: bold;
+				font-size: 1.2rem;
+			}
+
+			p.country{
+				text-transform: uppercase;
+				font-size: .9rem;
+				flex-grow: 1;
+			}
+		}
+	}
+	
+	After this save, refresh and observe.
+	
+32. Enter the following command to the angular CLI to build the project for production --> After this a dist folder will be created consisting of all the files.
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app>ng build --prod
+	Generating ES5 bundles for differential loading...
+	ES5 bundle generation complete.
+
+	chunk {0} runtime-es2015.c9afb3256f2870e161de.js (runtime) 1.45 kB [entry] [rendered]
+	chunk {0} runtime-es5.c9afb3256f2870e161de.js (runtime) 1.45 kB [entry] [rendered]
+	chunk {2} polyfills-es2015.bbb42ff2e1c488ff52d5.js (polyfills) 36.1 kB [initial] [rendered]
+	chunk {3} polyfills-es5.0e4e1968447fab48e788.js (polyfills-es5) 129 kB [initial] [rendered]
+	chunk {1} main-es2015.af189699ecb0d28999af.js (main) 267 kB [initial] [rendered]
+	chunk {1} main-es5.af189699ecb0d28999af.js (main) 323 kB [initial] [rendered]
+	chunk {4} styles.520575629a5adfea7f17.css (styles) 445 bytes [initial] [rendered]
+	Date: 2020-04-08T02:40:35.680Z - Hash: bba29d004dfefa04e191 - Time: 181353ms
+	
+33. Install the light server --> 
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app>npm i -g lite-server
+	npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+	npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+	C:\Users\Grover\AppData\Roaming\npm\lite-server -> C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\bin\lite-server
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\lite-server\node_modules\chokidar\node_modules\fsevents):
+	npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.12: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules\lite-server\node_modules\fsevents\node_modules\abbrev):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\abbrev' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.abbrev.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules\lite-server\node_modules\fsevents\node_modules\ansi-regex):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\ansi-regex' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.ansi-regex.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules\lite-server\node_modules\fsevents\node_modules\aproba):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\aproba' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.aproba.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules\lite-server\node_modules\fsevents\node_modules\balanced-match):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\balanced-match' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.balanced-match.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.4 (node_modules\lite-server\node_modules\fsevents\node_modules\chownr):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\chownr' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.chownr.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules\lite-server\node_modules\fsevents\node_modules\code-point-at):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\code-point-at' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.code-point-at.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules\lite-server\node_modules\fsevents\node_modules\concat-map):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\concat-map' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.concat-map.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules\lite-server\node_modules\fsevents\node_modules\console-control-strings):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\console-control-strings' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.console-control-strings.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules\lite-server\node_modules\fsevents\node_modules\core-util-is):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\core-util-is' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.core-util-is.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules\lite-server\node_modules\fsevents\node_modules\deep-extend):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\deep-extend' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.deep-extend.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules\lite-server\node_modules\fsevents\node_modules\delegates):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\delegates' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.delegates.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules\lite-server\node_modules\fsevents\node_modules\detect-libc):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\detect-libc' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.detect-libc.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules\lite-server\node_modules\fsevents\node_modules\fs.realpath):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\fs.realpath' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.fs.realpath.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules\lite-server\node_modules\fsevents\node_modules\has-unicode):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\has-unicode' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.has-unicode.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules\lite-server\node_modules\fsevents\node_modules\inherits):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\inherits' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.inherits.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules\lite-server\node_modules\fsevents\node_modules\ini):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\ini' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.ini.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules\lite-server\node_modules\fsevents\node_modules\isarray):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\isarray' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.isarray.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.5 (node_modules\lite-server\node_modules\fsevents\node_modules\minimist):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\minimist' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.minimist.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules\lite-server\node_modules\fsevents\node_modules\ms):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\ms' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.ms.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules\lite-server\node_modules\fsevents\node_modules\npm-normalize-package-bin):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\npm-normalize-package-bin' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.npm-normalize-package-bin.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules\lite-server\node_modules\fsevents\node_modules\number-is-nan):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\number-is-nan' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.number-is-nan.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules\lite-server\node_modules\fsevents\node_modules\object-assign):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\object-assign' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.object-assign.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules\lite-server\node_modules\fsevents\node_modules\os-homedir):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\os-homedir' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.os-homedir.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules\lite-server\node_modules\fsevents\node_modules\os-tmpdir):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\os-tmpdir' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.os-tmpdir.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules\lite-server\node_modules\fsevents\node_modules\path-is-absolute):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\path-is-absolute' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.path-is-absolute.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules\lite-server\node_modules\fsevents\node_modules\process-nextick-args):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\process-nextick-args' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.process-nextick-args.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules\lite-server\node_modules\fsevents\node_modules\safe-buffer):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\safe-buffer' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.safe-buffer.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules\lite-server\node_modules\fsevents\node_modules\safer-buffer):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\safer-buffer' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.safer-buffer.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules\lite-server\node_modules\fsevents\node_modules\sax):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\sax' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.sax.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules\lite-server\node_modules\fsevents\node_modules\semver):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\semver' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.semver.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules\lite-server\node_modules\fsevents\node_modules\set-blocking):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\set-blocking' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.set-blocking.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules\lite-server\node_modules\fsevents\node_modules\signal-exit):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\signal-exit' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.signal-exit.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules\lite-server\node_modules\fsevents\node_modules\strip-json-comments):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\strip-json-comments' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.strip-json-comments.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules\lite-server\node_modules\fsevents\node_modules\util-deprecate):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\util-deprecate' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.util-deprecate.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules\lite-server\node_modules\fsevents\node_modules\wrappy):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\wrappy' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.wrappy.DELETE'
+	npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules\lite-server\node_modules\fsevents\node_modules\yallist):
+	npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\yallist' -> 'C:\Users\Grover\AppData\Roaming\npm\node_modules\lite-server\node_modules\fsevents\node_modules\.yallist.DELETE'
+
+	+ lite-server@2.5.4
+	added 335 packages from 271 contributors in 102.961s
+	
+34. Run the build locally -->
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app>cd dist
+
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app\dist>cd my-app
+
+	C:\Users\Grover\Desktop\VAIBHAV\Learn Angular\Projects\my-app\dist\my-app>lite-server
+	Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+	** browser-sync config **
+	{
+	  injectChanges: false,
+	  files: [ './**/*.{html,htm,css,js}' ],
+	  watchOptions: { ignored: 'node_modules' },
+	  server: {
+		baseDir: './',
+		middleware: [ [Function (anonymous)], [Function (anonymous)] ]
+	  }
+	}
+	[Browsersync] Access URLs:
+	 -------------------------------------
+		   Local: http://localhost:3000
+		External: http://192.168.56.1:3000
+	 -------------------------------------
+			  UI: http://localhost:3001
+	 UI External: http://localhost:3001
+	 -------------------------------------
+	[Browsersync] Serving files from: ./
+	[Browsersync] Watching files...
+	20.04.08 08:15:37 200 GET /index.html
+	20.04.08 08:15:37 200 GET /styles.520575629a5adfea7f17.css
+	20.04.08 08:15:37 200 GET /polyfills-es2015.bbb42ff2e1c488ff52d5.js
+	20.04.08 08:15:37 200 GET /runtime-es2015.c9afb3256f2870e161de.js
+	20.04.08 08:15:38 200 GET /main-es2015.af189699ecb0d28999af.js
+	20.04.08 08:15:39 200 GET /favicon.ico

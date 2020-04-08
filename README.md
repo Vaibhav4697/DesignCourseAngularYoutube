@@ -1,0 +1,1 @@
+This repository consists of the notes and code learned during the Angular from DesignCourse on Youtube.
